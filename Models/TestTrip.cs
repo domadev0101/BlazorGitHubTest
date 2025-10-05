@@ -1,5 +1,5 @@
-using Supabase.Postgrest.Attributes;
-using Supabase.Postgrest.Models;
+using Postgrest.Attributes;
+using Postgrest.Models;
 
 namespace BlazorGitHubTest.Models;
 
@@ -18,5 +18,3 @@ public class TestTrip : BaseModel
     [Column("description")]
     public string? Description { get; set; }
 }
-
-

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "functions-csharp/1.3.2": {
+      "functions-csharp/1.3.1": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -19,7 +19,7 @@
           }
         }
       },
-      "gotrue-csharp/4.2.7": {
+      "gotrue-csharp/4.2.6": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -555,7 +555,7 @@
           }
         }
       },
-      "postgrest-csharp/3.5.1": {
+      "postgrest-csharp/3.5.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -604,13 +604,13 @@
           }
         }
       },
-      "supabase-csharp/0.16.2": {
+      "supabase-csharp/0.15.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "functions-csharp": "1.3.2",
-          "gotrue-csharp": "4.2.7",
-          "postgrest-csharp": "3.5.1",
+          "functions-csharp": "1.3.1",
+          "gotrue-csharp": "4.2.6",
+          "postgrest-csharp": "3.4.1",
           "realtime-csharp": "6.0.4",
           "supabase-core": "0.0.3",
           "supabase-storage-csharp": "1.4.0"
@@ -709,7 +709,7 @@
       }
     },
     "net9.0/browser-wasm": {
-      "functions-csharp/1.3.2": {
+      "functions-csharp/1.3.1": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -726,7 +726,7 @@
           }
         }
       },
-      "gotrue-csharp/4.2.7": {
+      "gotrue-csharp/4.2.6": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -1262,7 +1262,7 @@
           }
         }
       },
-      "postgrest-csharp/3.5.1": {
+      "postgrest-csharp/3.5.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -1311,13 +1311,13 @@
           }
         }
       },
-      "supabase-csharp/0.16.2": {
+      "supabase-csharp/0.15.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "functions-csharp": "1.3.2",
-          "gotrue-csharp": "4.2.7",
-          "postgrest-csharp": "3.5.1",
+          "functions-csharp": "1.3.1",
+          "gotrue-csharp": "4.2.6",
+          "postgrest-csharp": "3.4.1",
           "realtime-csharp": "6.0.4",
           "supabase-core": "0.0.3",
           "supabase-storage-csharp": "1.4.0"
@@ -1417,30 +1417,30 @@
     }
   },
   "libraries": {
-    "functions-csharp/1.3.2": {
-      "sha512": "7ktfO7+JJhi3QvcOkdTz/BGu++Am3HtYNqBOM1tLVoEAObXzKmx6y2Rwomc4V+7HFSxaqNQQFzVsX8MkSG7Xhw==",
+    "functions-csharp/1.3.1": {
+      "sha512": "OtOzbTsfFptkAsal8oeo8ENW7/cu5ZiAw776fvxc7csz28FzVWs8Lu1Gvg11siVdXh1JG90rboyYVMnO0pRpew==",
       "type": "package",
-      "path": "functions-csharp/1.3.2",
+      "path": "functions-csharp/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "functions-csharp.1.3.2.nupkg.sha512",
+        "functions-csharp.1.3.1.nupkg.sha512",
         "functions-csharp.nuspec",
         "icon.png",
         "lib/netstandard2.0/Supabase.Functions.dll",
         "lib/netstandard2.0/Supabase.Functions.xml"
       ]
     },
-    "gotrue-csharp/4.2.7": {
-      "sha512": "+sK5lze23W2BgPqZRmc3gffpYzEmakWpX05mfXIqtgPA4N53tgScsvJ3XP+ND1B9AsLMBbcXbT66M5848nX/lg==",
+    "gotrue-csharp/4.2.6": {
+      "sha512": "GDEQn4o0hk4qxPB7UPWSqVzdPR0hf4tcXkESNZoD4istvyBeVAcXskeK/7B07hwiN18s+O/irYulqbi1i8dGzw==",
       "type": "package",
-      "path": "gotrue-csharp/4.2.7",
+      "path": "gotrue-csharp/4.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "gotrue-csharp.4.2.7.nupkg.sha512",
+        "gotrue-csharp.4.2.6.nupkg.sha512",
         "gotrue-csharp.nuspec",
         "icon.png",
         "lib/netstandard2.0/Supabase.Gotrue.dll",
@@ -2463,10 +2463,10 @@
         "packageIcon.png"
       ]
     },
-    "postgrest-csharp/3.5.1": {
-      "sha512": "w0LMx+lbixBnjeNeaD03e6890Sk/ItkFUOR/ga2OP7rXPF9fpUOFV21UEaGdWushc7mliDolazzwVPkljcnrow==",
+    "postgrest-csharp/3.5.0": {
+      "sha512": "sNMyB3z+Y3Jv/H09oO52pocBEOR9iG54YT++1roEQqKXFrSedYMrljo3m3HCXrPmFmJSklSjkePID+uFSUz1wA==",
       "type": "package",
-      "path": "postgrest-csharp/3.5.1",
+      "path": "postgrest-csharp/3.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2474,7 +2474,7 @@
         "icon.png",
         "lib/netstandard2.0/Supabase.Postgrest.dll",
         "lib/netstandard2.0/Supabase.Postgrest.xml",
-        "postgrest-csharp.3.5.1.nupkg.sha512",
+        "postgrest-csharp.3.5.0.nupkg.sha512",
         "postgrest-csharp.nuspec"
       ]
     },
@@ -2508,10 +2508,10 @@
         "supabase-core.nuspec"
       ]
     },
-    "supabase-csharp/0.16.2": {
-      "sha512": "+znegRHt1YizgJhlmBNu19l8qRssvZ5kHie+BLf1vpIpa4QlAv3ZIT3jS+DG9IIrIgPV31VUBZpUUwA34GlGfA==",
+    "supabase-csharp/0.15.0": {
+      "sha512": "XMGF7/VzLK7Pt2Wg5h2nt6EyYdqmYlOfE5AIN6B30GvXNr9OCVcg7xtZRHAp7vD0eOwGzL2kRnM8kKex1H0WMQ==",
       "type": "package",
-      "path": "supabase-csharp/0.16.2",
+      "path": "supabase-csharp/0.15.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2519,7 +2519,7 @@
         "icon.png",
         "lib/netstandard2.0/Supabase.dll",
         "lib/netstandard2.0/Supabase.xml",
-        "supabase-csharp.0.16.2.nupkg.sha512",
+        "supabase-csharp.0.15.0.nupkg.sha512",
         "supabase-csharp.nuspec"
       ]
     },
@@ -2644,7 +2644,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.9",
       "Microsoft.NET.ILLink.Tasks >= 9.0.9",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.9",
-      "supabase-csharp >= 0.16.2"
+      "postgrest-csharp >= 3.5.0",
+      "supabase-csharp >= 0.15.0"
     ]
   },
   "packageFolders": {
@@ -2719,9 +2720,13 @@
             "version": "[9.0.9, )",
             "autoReferenced": true
           },
+          "postgrest-csharp": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
           "supabase-csharp": {
             "target": "Package",
-            "version": "[0.16.2, )"
+            "version": "[0.15.0, )"
           }
         },
         "imports": [

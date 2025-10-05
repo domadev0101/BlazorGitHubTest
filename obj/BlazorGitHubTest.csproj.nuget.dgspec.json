@@ -72,9 +72,13 @@
               "version": "[9.0.9, )",
               "autoReferenced": true
             },
+            "postgrest-csharp": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
             "supabase-csharp": {
               "target": "Package",
-              "version": "[0.16.2, )"
+              "version": "[0.15.0, )"
             }
           },
           "imports": [
