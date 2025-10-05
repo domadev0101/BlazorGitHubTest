@@ -1,0 +1,65 @@
+@page "/contact"
+
+<PageTitle>Contact</PageTitle>
+
+<h1>Contact with us</h1>
+
+<EditForm Model="contact" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label class="form-label" for="firstName">Name</label>
+        <InputText id="firstName" class="form-control" @bind-Value="contact.FirstName" />
+        <ValidationMessage For="() => contact.FirstName" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="surname">Surname</label>
+        <InputText id="surname" class="form-control" @bind-Value="contact.Surname" />
+        <ValidationMessage For="() => contact.Surname" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="subject">Subject</label>
+        <InputText id="subject" class="form-control" @bind-Value="contact.Subject" />
+        <ValidationMessage For="() => contact.Subject" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label" for="content">Content</label>
+        <InputTextArea id="content" class="form-control" @bind-Value="contact.Content" rows="5" />
+        <ValidationMessage For="() => contact.Content" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
+</EditForm>
+
+@code {
+    private ContactFormModel contact = new();
+
+    private void HandleValidSubmit()
+    {
+        // In a real app, send the message to an API/email service here.
+        contact = new ContactFormModel();
+    }
+
+    private sealed class ContactFormModel
+    {
+        [System.ComponentModel.DataAnnotations.Required]
+        [System.ComponentModel.DataAnnotations.StringLength(100, MinimumLength = 2)]
+        public string FirstName { get; set; } = string.Empty;
+
+        [System.ComponentModel.DataAnnotations.Required]
+        [System.ComponentModel.DataAnnotations.StringLength(100, MinimumLength = 2)]
+        public string Surname { get; set; } = string.Empty;
+
+        [System.ComponentModel.DataAnnotations.Required]
+        [System.ComponentModel.DataAnnotations.StringLength(150, MinimumLength = 3)]
+        public string Subject { get; set; } = string.Empty;
+
+        [System.ComponentModel.DataAnnotations.Required]
+        [System.ComponentModel.DataAnnotations.StringLength(2000, MinimumLength = 5)]
+        public string Content { get; set; } = string.Empty;
+    }
+}
