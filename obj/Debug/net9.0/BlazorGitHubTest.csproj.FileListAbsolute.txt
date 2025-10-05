@@ -1090,8 +1090,6 @@ F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Supabase.Storage
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\System.IdentityModel.Tokens.Jwt.3gzt1r26ws.wasm
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\System.Reactive.d1fws3h4o7.wasm
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Websocket.Client.cjybiyd9xl.wasm
-F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.edis44dsyh.wasm
-F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.g9l9o424o1.pdb
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Supabase.Functions.49p3ymrlr0.wasm.gz
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Supabase.Gotrue.526ra3rr0v.wasm.gz
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Microsoft.IdentityModel.Abstractions.vygtainoc8.wasm.gz
@@ -1108,8 +1106,6 @@ F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Supabase.Storage
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\System.IdentityModel.Tokens.Jwt.3gzt1r26ws.wasm.gz
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\System.Reactive.d1fws3h4o7.wasm.gz
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\Websocket.Client.cjybiyd9xl.wasm.gz
-F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.edis44dsyh.wasm.gz
-F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.g9l9o424o1.pdb.gz
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\Supabase.Functions.dll
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\Supabase.Gotrue.dll
 F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
@@ -1159,6 +1155,10 @@ F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\xxsfvt4z2o-o9m1fhamv6.gz
 F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\pz1jddav8s-3gzt1r26ws.gz
 F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\9uzzjvuyl3-d1fws3h4o7.gz
 F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\ucrjjgkg09-cjybiyd9xl.gz
-F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\3onrhbyxg8-edis44dsyh.gz
-F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\909rkgqx0d-g9l9o424o1.gz
-F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\72sru7dpek-shyixuwa92.gz
+F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.um4ztzyjcq.wasm
+F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.4dhfcapuf3.pdb
+F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.um4ztzyjcq.wasm.gz
+F:\10xDEVS\BlazorGitHubTest\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.4dhfcapuf3.pdb.gz
+F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\3onrhbyxg8-um4ztzyjcq.gz
+F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\909rkgqx0d-4dhfcapuf3.gz
+F:\10xDEVS\BlazorGitHubTest\obj\Debug\net9.0\compressed\72sru7dpek-atl16joimz.gz

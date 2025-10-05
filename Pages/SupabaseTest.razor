@@ -1,0 +1,144 @@
+
+@page "/supabase-test"
+@using BlazorGitHubTest.Models
+@using BlazorGitHubTest.Services
+@inject SupabaseService SupabaseService
+
+<PageTitle>Supabase Test</PageTitle>
+
+<h1>🧪 Test połączenia z Supabase</h1>
+
+<div style="margin: 20px 0;">
+    <h3>Dodaj nową podróż testową</h3>
+    <input @bind="newTripName" placeholder="Nazwa podróży" style="margin-right: 10px;" />
+    <input @bind="newTripDescription" placeholder="Opis (opcjonalnie)" style="margin-right: 10px;" />
+    <button @onclick="AddTrip" class="btn btn-primary">Dodaj</button>
+</div>
+
+@if (isLoading)
+{
+    <p><em>Ładowanie...</em></p>
+}
+else if (trips == null || !trips.Any())
+{
+    <p>Brak podróży. Dodaj pierwszą!</p>
+}
+else
+{
+    <h3>Lista podróży z Supabase:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nazwa</th>
+                <th>Opis</th>
+                <th>Data utworzenia</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trip in trips)
+            {
+                <tr>
+                    <td>@trip.Name</td>
+                    <td>@trip.Description</td>
+                    <td>@trip.CreatedAt.ToLocalTime().ToString("g")</td>
+                    <td>
+                        <button @onclick="() => DeleteTrip(trip.Id)" class="btn btn-danger btn-sm">Usuń</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @successMessage
+    </div>
+}
+
+@code {
+    private List<TestTrip> trips = new();
+    private bool isLoading = true;
+    private string newTripName = "";
+    private string newTripDescription = "";
+    private string errorMessage = "";
+    private string successMessage = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTrips();
+    }
+
+    private async Task LoadTrips()
+    {
+        try
+        {
+            isLoading = true;
+            errorMessage = "";
+            trips = await SupabaseService.GetAllTripsAsync();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Błąd podczas ładowania: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task AddTrip()
+    {
+        if (string.IsNullOrWhiteSpace(newTripName))
+        {
+            errorMessage = "Nazwa podróży nie może być pusta!";
+            return;
+        }
+
+        try
+        {
+            errorMessage = "";
+            successMessage = "";
+            
+            await SupabaseService.AddTripAsync(newTripName, newTripDescription);
+            
+            successMessage = "Podróż dodana pomyślnie!";
+            newTripName = "";
+            newTripDescription = "";
+            
+            await LoadTrips();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Błąd podczas dodawania: {ex.Message}";
+        }
+    }
+
+    private async Task DeleteTrip(Guid id)
+    {
+        try
+        {
+            errorMessage = "";
+            successMessage = "";
+            
+            await SupabaseService.DeleteTripAsync(id);
+            
+            successMessage = "Podróż usunięta!";
+            
+            await LoadTrips();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Błąd podczas usuwania: {ex.Message}";
+        }
+    }
+}
