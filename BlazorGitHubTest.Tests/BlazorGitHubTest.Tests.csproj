@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazorGitHubTest.csproj" />
+    <ProjectReference Include="..\BlazorGitHubTest.App\BlazorGitHubTest.App.csproj" />
   </ItemGroup>
 
 </Project>

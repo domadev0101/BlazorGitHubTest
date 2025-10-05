@@ -3160,8 +3160,8 @@
     },
     "BlazorGitHubTest/1.0.0": {
       "type": "project",
-      "path": "../BlazorGitHubTest.csproj",
-      "msbuildProject": "../BlazorGitHubTest.csproj"
+      "path": "../BlazorGitHubTest.App/BlazorGitHubTest.App.csproj",
+      "msbuildProject": "../BlazorGitHubTest.App/BlazorGitHubTest.App.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3207,8 +3207,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj": {
-              "projectPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj"
+            "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj": {
+              "projectPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj"
             }
           }
         }

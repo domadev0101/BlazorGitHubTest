@@ -4,14 +4,14 @@
     "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.Tests\\BlazorGitHubTest.Tests.csproj": {}
   },
   "projects": {
-    "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj": {
+    "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj",
+        "projectUniqueName": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj",
         "projectName": "BlazorGitHubTest",
-        "projectPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj",
+        "projectPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj",
         "packagesPath": "C:\\Users\\doma\\.nuget\\packages\\",
-        "outputPath": "F:\\10xDEVS\\BlazorGitHubTest\\obj\\",
+        "outputPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,8 +141,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj": {
-                "projectPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.csproj"
+              "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj": {
+                "projectPath": "F:\\10xDEVS\\BlazorGitHubTest\\BlazorGitHubTest.App\\BlazorGitHubTest.App.csproj"
               }
             }
           }
