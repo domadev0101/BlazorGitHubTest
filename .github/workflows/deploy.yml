@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build, Test & Deploy to GitHub Pages
 
 # Run workflow on every push to the master branch
 on:
@@ -8,6 +8,26 @@ on:
     branches: [ main ]
 
 jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Test
+        run: dotnet test --no-build --configuration Release --verbosity normal
+
   deploy-to-github-pages:
     # use ubuntu-latest image to run steps on
     runs-on: ubuntu-latest
