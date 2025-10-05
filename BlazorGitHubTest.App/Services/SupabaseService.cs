@@ -46,6 +46,16 @@ public class SupabaseService : ISupabaseService
             .Where(x => x.Id == id)
             .Delete();
     }
+
+    // Edytuj podróż
+    public async Task<TestTrip?> UpdateTripAsync(TestTrip trip)
+    {
+        var response = await _client
+            .From<TestTrip>()
+            .Where(x => x.Id == trip.Id)
+            .Update(trip);
+        return response.Models.FirstOrDefault();
+    }
 }
 
 

@@ -7,6 +7,7 @@ public interface ISupabaseService
     Task<List<TestTrip>> GetAllTripsAsync();
     Task<TestTrip?> AddTripAsync(string name, string? description);
     Task DeleteTripAsync(Guid id);
+    Task<TestTrip?> UpdateTripAsync(TestTrip trip);
 }
 
 

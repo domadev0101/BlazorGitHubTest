@@ -37,6 +37,17 @@ public class FakeSupabaseService : ISupabaseService
         Trips.RemoveAll(t => t.Id == id);
         return Task.CompletedTask;
     }
+
+    public Task<TestTrip?> UpdateTripAsync(TestTrip trip)
+    {
+        var index = Trips.FindIndex(t => t.Id == trip.Id);
+        if (index >= 0)
+        {
+            Trips[index] = trip;
+            return Task.FromResult<TestTrip?>(trip);
+        }
+        return Task.FromResult<TestTrip?>(null);
+    }
 }
 
 public class SupabaseTestPageTests : TestContext
@@ -71,5 +82,6 @@ public class SupabaseTestPageTests : TestContext
         cut.WaitForAssertion(() => Assert.Contains("Podróż dodana pomyślnie!", cut.Markup));
     }
 }
+
 
 

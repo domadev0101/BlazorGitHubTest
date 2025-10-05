@@ -1,0 +1,9 @@
+bin/
+obj/
+BlazorGitHubTest.App/bin/
+BlazorGitHubTest.App/obj/
+BlazorGitHubTest.Tests/bin/
+BlazorGitHubTest.Tests/obj/
+
+# Ignore Visual Studio cache and temp files
+.vs/
