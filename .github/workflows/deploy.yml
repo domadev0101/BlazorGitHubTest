@@ -20,13 +20,15 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: |
+          dotnet restore BlazorGitHubTest.App/BlazorGitHubTest.App.csproj
+          dotnet restore BlazorGitHubTest.Tests/BlazorGitHubTest.Tests.csproj
 
       - name: Build
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build BlazorGitHubTest.App/BlazorGitHubTest.App.csproj --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test --no-build --configuration Release --verbosity normal
+        run: dotnet test BlazorGitHubTest.Tests/BlazorGitHubTest.Tests.csproj --no-build --configuration Release --verbosity normal
 
   deploy-to-github-pages:
     # use ubuntu-latest image to run steps on
