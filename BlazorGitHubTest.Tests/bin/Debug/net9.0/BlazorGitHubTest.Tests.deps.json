@@ -13,7 +13,8 @@
           "bunit": "1.40.0",
           "coverlet.collector": "6.0.4",
           "xunit": "2.9.2",
-          "xunit.runner.visualstudio": "3.1.5"
+          "xunit.runner.visualstudio": "3.1.5",
+          "BlazorGitHubTest.Reference": "1.0.0.0"
         },
         "runtime": {
           "BlazorGitHubTest.Tests.dll": {}
@@ -911,6 +912,13 @@
         },
         "runtime": {
           "BlazorGitHubTest.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "BlazorGitHubTest.Reference/1.0.0.0": {
+        "runtime": {
+          "BlazorGitHubTest.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1395,6 +1403,11 @@
     },
     "BlazorGitHubTest/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlazorGitHubTest.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -1,8 +1,6 @@
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_BlazorGitHubTest.Tests
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_BlazorGitHubTest.Tests
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\testhost.dll
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\obj\BlazorGitHubTest.Tests.csproj.nuget.dgspec.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\obj\project.assets.json
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.staticwebassets.runtime.json
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.staticwebassets.endpoints.json
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\testhost.exe
@@ -150,10 +148,3 @@ F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\obj\Debug\net9.0\refint\Blazo
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\obj\Debug\net9.0\BlazorGitHubTest.Tests.pdb
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\obj\Debug\net9.0\BlazorGitHubTest.Tests.genruntimeconfig.cache
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\obj\Debug\net9.0\ref\BlazorGitHubTest.Tests.dll
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.staticwebassets.endpoints.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.staticwebassets.runtime.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests.deps.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests.runtimeconfig.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\obj\BlazorGitHubTest.Tests.csproj.nuget.dgspec.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\obj\project.assets.json
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.Tests\bin\Debug\net9.0\BlazorGitHubTest.Tests\obj\Debug\net9.0\BlazorGitHubTest.Tests.sourcelink.json

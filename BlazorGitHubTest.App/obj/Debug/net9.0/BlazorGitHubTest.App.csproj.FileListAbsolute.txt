@@ -215,8 +215,6 @@ F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_frame
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.rmesuan7by.wasm
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.gi5hbli26n.pdb
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\Supabase.Functions.49p3ymrlr0.wasm.gz
@@ -435,8 +433,6 @@ F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_frame
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.rmesuan7by.wasm.gz
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.gi5hbli26n.pdb.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\BlazorGitHubTest.staticwebassets.runtime.json
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\BlazorGitHubTest.staticwebassets.endpoints.json
@@ -1150,9 +1146,6 @@ F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\d3n
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\v9smvb0s6d-tjcz0u77k5.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\qha7q3ts3f-tptq2av103.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\h5g6zkzcxa-lfu7j35m59.gz
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\3onrhbyxg8-rmesuan7by.gz
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\909rkgqx0d-gi5hbli26n.gz
-F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\72sru7dpek-bfqdslll32.gz
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\staticwebassets.build.json
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\staticwebassets.build.json.cache
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\staticwebassets.development.json
@@ -1162,3 +1155,11 @@ F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\BlazorGitHubTe
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\refint\BlazorGitHubTest.dll
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\BlazorGitHubTest.pdb
 F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\ref\BlazorGitHubTest.dll
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.ijh7dsf9jx.wasm
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.8kyyiqlhrz.pdb
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.ijh7dsf9jx.wasm.gz
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\bin\Debug\net9.0\wwwroot\_framework\BlazorGitHubTest.8kyyiqlhrz.pdb.gz
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\3onrhbyxg8-ijh7dsf9jx.gz
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\909rkgqx0d-8kyyiqlhrz.gz
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\compressed\72sru7dpek-1f8wjwtb8i.gz
+F:\10xDEVS\BlazorGitHubTest\BlazorGitHubTest.App\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

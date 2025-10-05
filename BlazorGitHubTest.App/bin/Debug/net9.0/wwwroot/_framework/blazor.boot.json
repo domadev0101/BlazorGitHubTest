@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorGitHubTest",
   "resources": {
-    "hash": "sha256-kx4SwpQ+Vm1X4qnUvUPi+6XYVxypIJTpOvy6u7Z9Nyc=",
+    "hash": "sha256-J8Uoojm59dEMZ9iOEsn3zSWih4idUfMhx5CL22w43vo=",
     "fingerprinting": {
       "Supabase.Functions.49p3ymrlr0.wasm": "Supabase.Functions.wasm",
       "Supabase.Gotrue.526ra3rr0v.wasm": "Supabase.Gotrue.wasm",
@@ -217,8 +217,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BlazorGitHubTest.rmesuan7by.wasm": "BlazorGitHubTest.wasm",
-      "BlazorGitHubTest.gi5hbli26n.pdb": "BlazorGitHubTest.pdb"
+      "BlazorGitHubTest.ijh7dsf9jx.wasm": "BlazorGitHubTest.wasm",
+      "BlazorGitHubTest.8kyyiqlhrz.pdb": "BlazorGitHubTest.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.9ih887ebfz.js": "sha256-oS7IRiQoVt9ThQ7Y2UM3XoeY0JqPD02cg9IvRdufn2w="
@@ -444,10 +444,10 @@
       "WindowsBase.vy2l5u79y6.wasm": "sha256-ufB9Mo5joMyUs3DzXWWBFFIZNEVrt6h9N5stYB6Oln4=",
       "mscorlib.xd6mv31d55.wasm": "sha256-1YSLR2eZt3ceALFV//vZUF2AloxVil3VlrW1zZYPSEI=",
       "netstandard.kaml52uspo.wasm": "sha256-HLEwBpLfzKw2/zGSVzHzFJxznCkt/WIjahrziiMrOpA=",
-      "BlazorGitHubTest.rmesuan7by.wasm": "sha256-E6+gUUbikw9AUi+MNkuy5n9i/jQoQWZsuxHNFri5LEc="
+      "BlazorGitHubTest.ijh7dsf9jx.wasm": "sha256-jqF1i41J5fs3zK0Z9pkYcD/IZaIEUl9BXvtW8Kjq5LQ="
     },
     "pdb": {
-      "BlazorGitHubTest.gi5hbli26n.pdb": "sha256-2Mr8GG11JXfxYOG8OlqguckajLqPDFSLT1bxmIPPwCM="
+      "BlazorGitHubTest.8kyyiqlhrz.pdb": "sha256-iJKfDSqEyAanf1ZxyFsM+HQni+P2i4WsgZFGSelGhkA="
     }
   },
   "cacheBootResources": true,
