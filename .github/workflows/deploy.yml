@@ -1,6 +1,5 @@
 name: Build, Test & Deploy to GitHub Pages
 
-# Run workflow on every push to the master branch
 on:
   push:
     branches: [ main ]
@@ -8,61 +7,55 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '9.0.x'
-
-      - name: Restore dependencies
-        run: |
-          dotnet restore BlazorGitHubTest.App/BlazorGitHubTest.App.csproj
-          dotnet restore BlazorGitHubTest.Tests/BlazorGitHubTest.Tests.csproj
-
-      - name: Build
-        run: dotnet build BlazorGitHubTest.App/BlazorGitHubTest.App.csproj --no-restore --configuration Release
-
-      - name: Test
-        run: dotnet test BlazorGitHubTest.Tests/BlazorGitHubTest.Tests.csproj --no-build --configuration Release --verbosity normal
-
-  deploy-to-github-pages:
-    # use ubuntu-latest image to run steps on
+  build-test-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-    # uses GitHub's checkout action to checkout code form the master branch
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      # 1. Checkout kodu
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    # sets up .NET Core SDK
-    - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '9.0.x'
+      # 2. Setup .NET SDK
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
 
-    # publishes Blazor project to the release-folder
-    - name: Publish .NET Core Project
-      run: dotnet publish BlazorGitHubTest.App/BlazorGitHubTest.App.csproj -c Release -o release --nologo
+      # 3. Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore
 
-    # changes the base-tag in index.html from '/' to 'BlazorGitHubTest' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to BlazorGitHubTest
-      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorGitHubTest\/BlazorGitHubTest.App\/" \/>/g' release/wwwroot/index.html
+      # 4. Build aplikacji
+      - name: Build application
+        run: dotnet build BlazorGitHubTest.App/BlazorGitHubTest.App.csproj --no-restore --configuration Release
 
-    # copy index.html to 404.html to serve the same file when a file is not found
-    - name: Copy index.html to 404.html
-      run: cp release/wwwroot/index.html release/wwwroot/404.html
+      # 5. Build testów
+      - name: Build tests
+        run: dotnet build BlazorGitHubTest.Tests/BlazorGitHubTest.Tests.csproj --no-restore --configuration Release
 
-    # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
-    - name: Add .nojekyll file
-      run: touch release/wwwroot/.nojekyll
+      # 6. Uruchom testy
+      - name: Run tests
+        run: dotnet test BlazorGitHubTest.Tests/BlazorGitHubTest.Tests.csproj --no-build --configuration Release --verbosity normal
 
-    - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: release/wwwroot
+      # 7. Publish aplikacji (tylko jeśli testy przeszły)
+      - name: Publish .NET Core Project
+        run: dotnet publish BlazorGitHubTest.App/BlazorGitHubTest.App.csproj -c Release -o release --nologo
+
+      # 8. Zmiana base-tag w index.html
+      - name: Change base-tag in index.html
+        run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorGitHubTest\/" \/>/g' release/wwwroot/index.html
+
+      # 9. Kopiowanie index.html do 404.html
+      - name: Copy index.html to 404.html
+        run: cp release/wwwroot/index.html release/wwwroot/404.html
+
+      # 10. Dodanie .nojekyll
+      - name: Add .nojekyll file
+        run: touch release/wwwroot/.nojekyll
+
+      # 11. Deploy do GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: release/wwwroot
