@@ -7,7 +7,7 @@ using BlazorGitHubTest.Models;
 
 namespace BlazorGitHubTest.Services;
 
-public class SupabaseService
+public class SupabaseService : ISupabaseService
 {
     private readonly Client _client;
 

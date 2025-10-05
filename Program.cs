@@ -28,6 +28,6 @@ builder.Services.AddScoped<Client>(_ =>
 );
 
 // Zarejestruj SupabaseService
-builder.Services.AddScoped<SupabaseService>();
+builder.Services.AddScoped<ISupabaseService, SupabaseService>();
 
 await builder.Build().RunAsync();
