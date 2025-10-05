@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorGitHubTest",
   "resources": {
-    "hash": "sha256-01nb96j30Nz/h/77lWWqpkjdLBBrUX3Ruu3nE2qf5X8=",
+    "hash": "sha256-IB+aZRdbP+DYxTIkDeWQihfpYXCr0nTal/n57mHunHM=",
     "fingerprinting": {
       "Supabase.Functions.49p3ymrlr0.wasm": "Supabase.Functions.wasm",
       "Supabase.Gotrue.526ra3rr0v.wasm": "Supabase.Gotrue.wasm",
@@ -95,7 +95,7 @@
       "System.m0fu6d0eya.wasm": "System.wasm",
       "netstandard.3nt7hcovlc.wasm": "netstandard.wasm",
       "System.Private.CoreLib.e3qqb0onqn.wasm": "System.Private.CoreLib.wasm",
-      "BlazorGitHubTest.wdbwxgw6mn.wasm": "BlazorGitHubTest.wasm",
+      "BlazorGitHubTest.glprro1o8y.wasm": "BlazorGitHubTest.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.9ih887ebfz.js": "dotnet.native.js",
       "dotnet.native.21mns4qp4i.wasm": "dotnet.native.wasm",
@@ -213,7 +213,7 @@
       "System.Xml.XDocument.7lwqr4899m.wasm": "sha256-e3L7s5yS/QYP10aPEIzvCa+38xNs3qtSsbLAJgQ4nfw=",
       "System.m0fu6d0eya.wasm": "sha256-hkGLo/MuT/FJ0Xf4XUL0D2VA4dZV532GHNB1JicxLko=",
       "netstandard.3nt7hcovlc.wasm": "sha256-zzKROYN5mogxAYw2fTL3XKXqINRvtXeDpDxtIgwc7bA=",
-      "BlazorGitHubTest.wdbwxgw6mn.wasm": "sha256-pILI+540+QF4m8B9AbR4NUF0sZwWzQGgAPfJGcAA1SU="
+      "BlazorGitHubTest.glprro1o8y.wasm": "sha256-VCWcJp9/ondVN+zeiANFSxBZwgndOQUuqnP2VsSNQZ4="
     }
   },
   "cacheBootResources": true,
